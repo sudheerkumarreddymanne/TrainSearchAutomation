@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-04T13:02:26 IST" name="Suite" finished-at="2024-01-04T13:03:25 IST" duration-ms="59671">
+    <groups>
+    </groups>
+    <test started-at="2024-01-04T13:02:26 IST" name="Test" finished-at="2024-01-04T13:03:25 IST" duration-ms="59671">
+      <class name="com.irctc.irctcTestng">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:com.irctc.irctcTestng@46cdf8bd]" started-at="2024-01-04T13:02:27 IST" name="createDriver" finished-at="2024-01-04T13:02:49 IST" duration-ms="22886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="verify()[pri:1, instance:com.irctc.irctcTestng@46cdf8bd]" started-at="2024-01-04T13:02:49 IST" name="verify" finished-at="2024-01-04T13:02:50 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method signature="selectFrom()[pri:2, instance:com.irctc.irctcTestng@46cdf8bd]" started-at="2024-01-04T13:02:50 IST" name="selectFrom" finished-at="2024-01-04T13:02:56 IST" depends-on-methods="com.irctc.irctcTestng.verify" duration-ms="6795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFrom -->
+        <test-method signature="selectTo()[pri:3, instance:com.irctc.irctcTestng@46cdf8bd]" started-at="2024-01-04T13:02:56 IST" name="selectTo" finished-at="2024-01-04T13:02:57 IST" depends-on-methods="com.irctc.irctcTestng.verify" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTo -->
+        <test-method signature="choosedate()[pri:4, instance:com.irctc.irctcTestng@46cdf8bd]" started-at="2024-01-04T13:02:57 IST" name="choosedate" finished-at="2024-01-04T13:03:04 IST" depends-on-methods="com.irctc.irctcTestng.verify" duration-ms="6406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- choosedate -->
+        <test-method signature="Divyaangcheckbox()[pri:5, instance:com.irctc.irctcTestng@46cdf8bd]" started-at="2024-01-04T13:03:04 IST" name="Divyaangcheckbox" finished-at="2024-01-04T13:03:07 IST" depends-on-methods="com.irctc.irctcTestng.verify" duration-ms="3075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Divyaangcheckbox -->
+        <test-method signature="okbutton()[pri:6, instance:com.irctc.irctcTestng@46cdf8bd]" started-at="2024-01-04T13:03:07 IST" name="okbutton" finished-at="2024-01-04T13:03:10 IST" depends-on-methods="com.irctc.irctcTestng.Divyaangcheckbox, com.irctc.irctcTestng.verify" duration-ms="3038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- okbutton -->
+        <test-method signature="selectClass()[pri:7, instance:com.irctc.irctcTestng@46cdf8bd]" started-at="2024-01-04T13:03:10 IST" name="selectClass" finished-at="2024-01-04T13:03:15 IST" depends-on-methods="com.irctc.irctcTestng.verify" duration-ms="5154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectClass -->
+        <test-method signature="search()[pri:8, instance:com.irctc.irctcTestng@46cdf8bd]" started-at="2024-01-04T13:03:15 IST" name="search" finished-at="2024-01-04T13:03:20 IST" depends-on-methods="com.irctc.irctcTestng.verify" duration-ms="5063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="captureScreenshot()[pri:9, instance:com.irctc.irctcTestng@46cdf8bd]" started-at="2024-01-04T13:03:20 IST" name="captureScreenshot" finished-at="2024-01-04T13:03:20 IST" depends-on-methods="com.irctc.irctcTestng.search" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.irctc.irctcTestng@46cdf8bd]" started-at="2024-01-04T13:03:20 IST" name="closeBrowser" finished-at="2024-01-04T13:03:25 IST" duration-ms="4912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.irctc.irctcTestng -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
